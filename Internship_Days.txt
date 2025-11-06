@@ -1,0 +1,9 @@
+Day 4:
+     W3 python;
+    
+    + list, tupers,sets, Dictionaries
+    + Python Modules: Django Tutorial
+
+
+
+
