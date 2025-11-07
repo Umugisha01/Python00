@@ -2,15 +2,24 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 tropical = ["hello", "pineapple", "papaya"]
 fruits = ["apple", "Watermelon", "papaya"]
 numbers = [1, 10, 6, 7, 2, 3, 90, 35, 12, 35, 20, 8]
+numbers02 = [20, 10, 30, 60, 70]
 
-mynumbers = numbers.copy()
-print(mynumbers)
 
-myFruits = list(fruits)
-print(myFruits)
+# numbers.extend(numbers02)
+# numbers03 = numbers + numbers02
+# for x in numbers02:
+#     numbers.append(x)
 
-myList = thislist[:]
-print(myList)
+# print (numbers)
+#COPY LISTS
+# mynumbers = numbers.copy()
+# print(mynumbers)
+
+# myFruits = list(fruits)
+# print(myFruits)
+
+# myList = thislist[:]
+# print(myList)
 
 
 #sorting

@@ -24,9 +24,11 @@ class Employee:
     def __str__(self):
         return '{} - {}'.format(self.fullname(), self.email)
 
-
-    # def __add__(self, other):
-    #     return self.pay + other.pay
+    def __add__(self, other):
+        return self.pay + other.pay
+    
+    def __len__(self):
+        return len(self.fullname())
     
 # class Developer(Employee):
 #     def __init__(self, first, last, pay, prog_lang):
