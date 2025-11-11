@@ -1,0 +1,25 @@
+python -m venv myworld
+
+myworld\Scripts\activate.bat
+
+python -m pip install Django
+
+django-admin --version
+
+cd myworld
+
+django-admin startproject my_tennis_club
+
+
+cd my_tennis_club
+
+python manage.py runserver
+
+
+[CTRL] [C] to stop the server
+
+python manage.py startapp members
+
+
+
+python manage.py migrate

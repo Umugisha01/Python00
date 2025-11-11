@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<table border='1'>
+  <tr>
+    <th>ID</th>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  {% for x in mymembers %}
+    <tr>
+      <td>{{ x.id }}</td>
+        <td>{{ x.firstname }}</td>
+      <td>{{ x.lastname }}</td>
+    </tr>
+  {% endfor %}
+</table>
+
+<!-- <table>
+    <tr>
+        <th>ID</th>
+        <th>Firstname</th>
+        <th>lastname</th>
+    </tr>
+    {% for x in mymembers %}
+      <tr>
+        <td>{{ x.id }}</td>
+        <td>{{ x.firstname }}</td>
+        <td>{{ x.lastname }} </td>
+      </tr>
+    {% endfor %}
+</table> -->
+
+<!-- {% include "mymenu.html" with me='BUMUGISHA' sponsor="W3SCHOOLS" %}
+
+<h1>Welcome</h1>
+<p>This in my webpage.</p> -->
+
+<!-- <h1>Hello</h1>
+
+<p>This page contains a footer in a template.</p>
+
+{% include 'footer.html' %} -->
+
+<!-- <h1>Welcome{# Everyone#}</h1> -->
+
+<!-- <h1>Welcome Everyone</h1>
+{% comment %}
+  <h1>Welcome ladies and gentlemen</h1>
+{% endcomment %} -->
+
+<!-- <ul>
+  {% for x in members %}
+    <li>{{ forloop.counter0 }}</li>
+  {% endfor %}
+</ul>  -->
+
+<!-- <ul>
+   {% for x in fruits %}
+    <li>{{ foloop.counter }}</li>
+   {% endfor %} 
+</ul> -->
+
+<!-- <ul>
+  {% for x in emptytestobject %}
+    <li>{{ x.firstname }}</li>
+  {% empty %}
+    <li>No members</li>
+  {% endfor %}
+</ul>  -->
+    
+<!-- {% for x in members reversed %}
+  <h1>{{ x.id }}</h1>
+  <p>
+    {{ x.firstname }}
+    {{ x.lastname }}
+  </p>
+{% endfor %} -->
+
+<!-- {% for x in members %}
+  <h1>{{ x.id }}</h1>
+  <p>
+    {{ x.firstname }}
+    {{ x.lastname }}
+  </p>
+{% endfor %} -->
+
+
+<!-- {% for x in cars %}
+    <h1>{{x.brand}}</h1>
+    <h1>{{x.model}}</h1>
+    <h1>{{x.year}}</h1>
+{% endfor %} -->
+
+<!-- {% for x in fruits %}
+    <h1>{{ x }}</h1>
+{% endfor %} -->
+
+<!-- {% with var1=x var2=x %}
+    {% if var1 is var2 %}
+        <h1>Yes</h1>
+    {% else %}
+        <h1>No</h1>
+    {% endif %}
+{% endwith %} -->
+
+<!-- 
+{% if greeting == 1 %}
+    <h1>Hello</h1>
+{% elif greeting == 2 %}
+    <h1>Welcome</h1>
+{% else %}
+    <h1>Goodbye</h1>
+{% endif %} -->
+
+<!-- <ul>
+    {% for x in mymembers %}
+        <li>{{ x.firstname }}</li>
+    {% endfor %}
+</ul> -->
+
+<!-- {% if greeting == 1 %}
+    <h1>Hello</h1>
+{% else %}
+    <h1>Byee</h1>
+{% endif %} -->
+
+<!-- <ul>
+  {% for x in mymembers %}
+    <li>{{ x.firstname }}</li>
+  {% endfor %}
+</ul> -->
+
+</body>
+</html>
